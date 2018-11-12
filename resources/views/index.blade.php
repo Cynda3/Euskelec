@@ -166,21 +166,21 @@
 									</p>
 								</div>
 							</div>
-					  		<form class="booking-form" id="booking" action="booking.php">
+					  		<form class="booking-form" id="booking" action="enviar" method="GET">
+					  			@csrf
 								 <div class="row">
 								    <div class="col-lg-6 col-md-12">
 								    	<div class="row">
 									    	<div class="col-lg-6">
-												<input type="text" name="fname" class="single-in form-control" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'" required="">
-									    		<input type="text" name="lname" class="single-in form-control" placeholder="Apellido" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Apellido'" required="">
+												<input type="text" name="nombre" class="single-in form-control" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'" required="">
 									    	</div>
 									    	<div class="col-lg-6">
-									    		<input class="single-in form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+									    		<input class="single-in form-control" name="email" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
 									    	</div>
 								    	</div>
 								    </div>
 								    <div class="col-lg-6 col-md-12">
-								      	<textarea class="single-in form-control" name="message" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'" required=""></textarea>
+								      	<textarea class="single-in form-control" name="mensaje" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'" required=""></textarea>
 								    </div>
 										<div class="col-lg-12 d-flex justify-content-center send-btn">
 										<button class="primary-btn mt-20 text-uppercase ">Enviar<span class="lnr lnr-arrow-right"></span></button>
