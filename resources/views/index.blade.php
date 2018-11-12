@@ -166,7 +166,7 @@
 									</p>
 								</div>
 							</div>
-					  		<form class="booking-form" id="booking" action="enviar" method="POST" onsubmit="return alert('Datos enviados!');">
+					  		<form class="booking-form" action="enviar" method="POST" onsubmit="return alert('Datos enviados!');">
 					  			@csrf
 								 <div class="row">
 								    <div class="col-lg-6 col-md-12">

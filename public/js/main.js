@@ -132,7 +132,7 @@ $(document).ready(function(){
             var alert = $('.alert-msg'); // alert div for show alert message
 
             // form submit event
-            /*form.on('submit', function(e) {
+            form.on('submit', function(e) {
                 e.preventDefault(); // prevent default form submit
 
                 $.ajax({
@@ -162,5 +162,5 @@ $(document).ready(function(){
           });      
     // -------   Mail Send ajax
 
-*/
+
  });
