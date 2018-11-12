@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('enviar', 'messagedb@guardar');
+Route::post('enviar', 'messagedb@guardar');
