@@ -45,7 +45,7 @@
 									<a href="#coches">Coches</a>
 									<a href="#sensores">Sensores</a>
 									<a href="#grupos">Grupos</a>
-									<a href="#">Login</a>
+									<a href="login">Login</a>
 									<a href="#">Register</a>	
 								</nav>
 								<div class="menu-bar"><span class="lnr lnr-menu"></span></div>

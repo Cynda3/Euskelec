@@ -19,9 +19,6 @@
 							<h1>
 								Euskelec <br>
 							</h1>
-							<h2>
-								Diseña tu propio coche
-							</h2>
 							
 						</div>
 						<div class="banner-content col-lg-12 col-md-12">
@@ -173,9 +170,13 @@
 								    	<div class="row">
 									    	<div class="col-lg-6">
 												<input type="text" name="nombre" class="single-in form-control" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'" required="">
+											</div>
+									    	<div class="icons" id="icon-name">
 									    	</div>
 									    	<div class="col-lg-6">
 									    		<input class="single-in form-control" name="email" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+									    	</div>
+									    	<div class="icons" id="icon-mail">
 									    	</div>
 								    	</div>
 								    </div>
